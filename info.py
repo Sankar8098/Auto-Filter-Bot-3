@@ -68,7 +68,7 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 # MongoDB Configuration
 # ============================
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sankar:sankar@sankar.lldcdsx.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://filestorebot:filestorebot@filestorebot.vocsels.mongodb.net/?retryWrites=true&w=majority&appName=Filestorebot")
 DATABASE_NAME = environ.get('DATABASE_NAME', "yato")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
